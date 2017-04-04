@@ -62,10 +62,13 @@
 1. 加载数据Task3/task3\_x.dat，Task3/task3\_y.dat
 2. 使用逻辑斯底回归算法对它们进行分类
 3. 结果图参考Task3/Red-Night-Aria.png
-4. 在Task3/15/目录下提交你的结果图(jpg、png)，以自己的github账户名作为文件名。
+4. 在Task3目录下提交你的结果图(jpg、png)，以自己的github账户名作为文件名。
 
     支线任务：
 	* 用牛顿法取代梯度下降法实现算法
 
 **请于第八周结束前完成以上内容。**
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
