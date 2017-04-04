@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="file:///home/mmmmmua/.emacs.d/markdown.css" type="text/css" />
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="the-machine-learing-training-in-hit">The Machine Learing Training in HIT</h1>
+<p>[TOC]</p>
+<p>作业的发布与提交都在本git仓库中进行</p>
+<h3 id="相关资源">相关资源：</h3>
+<ul>
+<li>机器学习视频网站--<strong>请与课程的进度保持同步</strong>。http://www.coursera.org/learn/machine-learning/</li>
+<li>matlab下载地址--windows &amp; linux。链接: https://pan.baidu.com/s/1o787KeA 密码: ad6a</li>
+<li>数据挖掘导论--作为补充材料。发布于群文件</li>
+<li>python极简入门--http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000#0</li>
+<li>python书籍推荐--Python编程(programming python)</li>
+<li>numpy教程--https://docs.scipy.org/doc/numpy-dev/user/quickstart.html</li>
+<li>matplotlib教程--http://www.labri.fr/perso/nrougier/teaching/matplotlib/</li>
+<li>矩阵求导--https://zhuanlan.zhihu.com/p/24709748 https://ccjou.wordpress.com/2013/05/31/%E7%9F%A9%E9%99%A3%E5%B0%8E%E6%95%B8/</li>
+<li>Desmos图形计算器--https://www.desmos.com/calculator</li>
+</ul>
+<h3 id="欢迎来到新手村你需要完成以下训练">欢迎来到新手村，你需要完成以下训练：</h3>
+<h4 id="task0github的使用">1. Task0——github的使用</h4>
+<ol style="list-style-type: decimal">
+<li>注册github帐号</li>
+<li>star这个仓库</li>
+<li>自学git及github的基础使用，并在自己电脑上配置好环境(git教程http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)</li>
+<li>fork这个仓库，clone下你的仓库，在本地创建新的分支（不要使用默认的master分支）</li>
+<li>在本地Task0目录下，添加一个新的文件，以自己的github账户名作为markdown文件的文件名，如：Red-Night-Aria.md</li>
+<li>文件中写上自己的本名+你想说的任何话 （比如自己的座右铭）</li>
+<li>commit到本地仓库，然后将本地分支推送到remote</li>
+<li>向原仓库的master分支发起pull request，等待合并分支</li>
+</ol>
+<p><strong>请于第四周结束前完成以上内容。</strong></p>
+<h4 id="task1linear-regression">2. Task1——Linear Regression</h4>
+<ol style="list-style-type: decimal">
+<li>加载数据Task1/q2x.dat，Task1/q2y.dat</li>
+<li>使用线性回归算法拟合它们</li>
+<li>画图观察梯度下降的过程,let it nice-looking:)。</li>
+<li>结果图参考Task1/linear_regress.fig</li>
+<li>在Task1目录下提交你的结果图(jpg、png、fig)与代码，以自己的github账户名作为文件名，如：Red-Night-Aria.fig</li>
+</ol>
+<h5 id="支线任务">支线任务：</h5>
+<ul>
+<li>学习python的基本语法</li>
+<li>学习numpy框架的使用</li>
+<li>使用python完成Task1</li>
+</ul>
+<p><strong>请于第六周结束前完成以上内容。</strong></p>
+<h4 id="task2locally-weighted-linear-regression">3. Task2——Locally Weighted Linear Regression</h4>
+<ol style="list-style-type: decimal">
+<li>加载数据Task2/q2x.dat，Task2/q2y.dat</li>
+<li>使用加权线性回归算法拟合它们(请自行查阅局部加权线性回归的资料)<br />
+</li>
+<li>改变高斯函数的theta值，观察结果</li>
+<li>画图，结果图参考Task2/Red-Night-Aria.png</li>
+<li>在Task2目录下提交你的结果图(jpg、png、fig)与代码，以自己的github账户名作为文件名，如：Red-Night-Aria.fig</li>
+</ol>
+<p><strong>请于第七周结束前完成以上内容。</strong></p>
+<h4 id="task3logistic-regression">4. Task3——Logistic Regression</h4>
+<ol style="list-style-type: decimal">
+<li>加载数据Task3/task3_x.dat，Task3/task3_y.dat</li>
+<li>使用逻辑斯底回归算法对它们进行分类</li>
+<li>结果图参考Task3/Red-Night-Aria.png</li>
+<li><p>在Task3/15/目录下提交你的结果图(jpg、png)，以自己的github账户名作为文件名。</p>
+支线任务：
+<ul>
+<li>用牛顿法取代梯度下降法实现算法</li>
+</ul></li>
+</ol>
+<p><strong>请于第八周结束前完成以上内容。</strong></p>
+<p><a href="http://www.baidu.com">Baidu</a></p>
+<pre><code>#include &lt;bits/stdc++.h&gt;
+using namespace std;</code></pre>
+<p><span class="math display">\[\sum_{i=1}^{n} i = \frac{n(n+1)}{2}\]</span></p>
+</body>
+</html>
