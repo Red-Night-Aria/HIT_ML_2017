@@ -50,4 +50,4 @@ plt.title("AlongWY's Graphics")
 plt.show()
 
 #保存图片
-plt.savefig("AlongWY.pdf")
+plt.savefig("AlongWY.png")

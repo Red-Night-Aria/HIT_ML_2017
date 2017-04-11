@@ -13,6 +13,7 @@
 * matplotlib教程--http://www.labri.fr/perso/nrougier/teaching/matplotlib/
 * 矩阵求导--https://zhuanlan.zhihu.com/p/24709748
   https://ccjou.wordpress.com/2013/05/31/%E7%9F%A9%E9%99%A3%E5%B0%8E%E6%95%B8/
+* Desmos图形计算器--https://www.desmos.com/calculator
 
 ### 欢迎来到新手村，你需要完成以下训练：
 
@@ -53,3 +54,30 @@
 3. 改变高斯函数的theta值，观察结果
 4. 画图，结果图参考Task2/Red-Night-Aria.png
 5. 在Task2目录下提交你的结果图(jpg、png、fig)与代码，以自己的github账户名作为文件名，如：Red-Night-Aria.fig
+
+**请于第七周结束前完成以上内容。**
+
+#### 4. Task3——Logistic Regression
+
+1. 加载数据Task3/task3\_x.dat，Task3/task3\_y.dat
+2. 使用逻辑斯底回归算法对它们进行分类
+3. 结果图参考Task3/Red-Night-Aria.png
+4. 在Task3目录下提交你的结果图(jpg、png)，以自己的github账户名作为文件名。
+
+##### 支线任务：
+* 用牛顿法取代梯度下降法实现算法
+
+**请于第八周结束前完成以上内容。**
+
+####5. Task4——Simple Neural Network(part 1)
+
+1. 加载数据Task4/watermelon.txt
+2. 使用单隐层神经网络拟合对数据进行分类
+3. 结果图参考Task4/Red-Night-Aria.png
+4. 在Task4目录下提交你的结果图(jpg、png、fig)与代码，以自己的github账户名作为文件名。
+
+##### 支线任务：
+* 论证以密度和含糖率来分辨西瓜的好坏是否合理。
+
+**请于第九周结束前完成以上内容**
+
