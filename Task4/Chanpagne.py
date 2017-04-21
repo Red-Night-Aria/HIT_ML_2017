@@ -47,7 +47,7 @@ for t in range(time):
 		w += yita * g * b
 		v += yita * mat(X[i]).T * e.T
 		theta += -yita * g
-		gamma += -yita * e
+		gamma += -yita * e 
 x1 = arange(0, 0.85, .01)
 x2 = arange(0, 0.55, .01)
 x1, x2 = meshgrid(x1, x2)
@@ -55,4 +55,3 @@ f = sigmoid(x1 * v[0,0] + x2 * v[1,0] - gamma[0,0]) * w[0,0] + \
  sigmoid(x1 * v[0,1] + x2 * v[1,1] - gamma[1,0]) * w[1,0] + sigmoid(x1 * v[0,2] + x2 * v[1,2] - gamma[2,0]) * w[2,0] - theta
 contour(x1, x2, f, 0)
 show()
-ggg
