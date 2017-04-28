@@ -47,7 +47,7 @@ for t in range(time):
 		w += yita * g * b
 		v += yita * mat(X[i]).T * e.T
 		theta += -yita * g
-		gamma += -yita * e
+		gamma += -yita * e 
 x1 = arange(0, 0.85, .01)
 x2 = arange(0, 0.55, .01)
 x1, x2 = meshgrid(x1, x2)
