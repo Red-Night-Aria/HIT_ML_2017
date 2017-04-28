@@ -69,7 +69,7 @@
 
 **请于第八周结束前完成以上内容。**
 
-####5. Task4——Simple Neural Network(part 1)
+#### 5. Task4——Simple Neural Network(part 1)
 
 1. 加载数据Task4/watermelon.txt
 2. 使用单隐层神经网络拟合对数据进行分类
@@ -81,3 +81,18 @@
 
 **请于第九周结束前完成以上内容**
 
+#### 6. Task5——Simple Neural Network(part 2)
+
+概览：学习python的ML工具箱scikit-learn的使用，完成CV界的hello world：MNIST手写体数字识别
+
+0. 安装第三方库scikit-learn
+1. 解码MNIST数据集(数据文件的格式见官网http://yann.lecun.com/exdb/mnist/)
+2. 使用sklearn库设计神经网络，完成对MNIST数据集的训练(参考文档http://scikit-learn.org/dev/modules/neural_networks_supervised.html#neural-networks-supervised)
+3. 利用训练好的模型，预测自己的手写数字图片
+4. 在Task5目录下提交你的结果图与代码。(结果图的格式与内容随意 XD
+
+(tips: 训练前用Pillow或matplotlib观察待训练数据，确保数据格式无误)
+
+#### 支线任务：
+* 理解MLPClassifier的构造函数中各个参数的意义
+* 修改MLPClassifier构造函数的默认参数，使用交叉检验法比较不同模型的性能
